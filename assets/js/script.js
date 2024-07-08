@@ -78,8 +78,8 @@ function completedTask(id) {
 }
 
 function countTask() {
-  totalTasks.innerHTML = `Total de Tareas: ${tasks.length}`;
+  totalTasks.innerHTML = `Total de tareas: ${tasks.length}`;
 
   const totalCompletedTasks = tasks.filter((t) => t.completed == true);
-  tasksCompleted.innerHTML = `Total de Tareas Realizadas: ${totalCompletedTasks.length}`;
+  tasksCompleted.innerHTML = `Tareas realizadas: ${totalCompletedTasks.length}`;
 }
